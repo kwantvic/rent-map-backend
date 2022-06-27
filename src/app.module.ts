@@ -6,6 +6,8 @@ import { AppService } from './app.service';
 import { RentModule } from './rent/rent.module';
 import { RentEntity } from './rent/entities/rent.entity';
 
+console.log('🧲', process.env.DATABASE_URL, process.env.DATABASE_URL_SSL);
+
 @Module({
   imports: [
     TypeOrmModule.forRoot({

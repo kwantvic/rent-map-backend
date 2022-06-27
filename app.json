@@ -1,0 +1,14 @@
+{
+  "repository": "https://github.com/rent-map/backend",
+  "scripts": {
+    "predeploy": "npm install && npm run build"
+  },
+  "addons": [
+    "heroku-postgresql"
+  ],
+  "buildpacks": [
+    {
+      "url": "heroku/nodejs"
+    }
+  ]
+}

@@ -10,11 +10,10 @@ import { RentEntity } from './rent/entities/rent.entity';
   imports: [
     TypeOrmModule.forRoot({
       type: 'postgres',
-      host: 'localhost',
-      port: 5432,
-      username: 'postgres',
-      password: 'mysql',
-      database: 'rent-map',
+      url: process.env.DATABASE_URL,
+      ssl: process.env.DATABASE_URL_SSL
+        ? undefined
+        : { rejectUnauthorized: false },
       entities: [RentEntity],
       synchronize: true,
     }),

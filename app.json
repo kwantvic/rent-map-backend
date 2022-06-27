@@ -1,7 +1,7 @@
 {
   "repository": "https://github.com/rent-map/backend",
   "scripts": {
-    "predeploy": "npm install && npm run build"
+    "predeploy": "yarn && yarn build"
   },
   "addons": [
     "heroku-postgresql"

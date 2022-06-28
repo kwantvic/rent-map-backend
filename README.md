@@ -1,5 +1,5 @@
 <p align="center">
-  <a href="http://nestjs.com/" target="blank"><img src="https://nestjs.com/img/logo-small.svg" width="200" alt="Nest Logo" /></a>
+  <a href="http://nestjs.com/" target="blank"><img src="https://blog.tooljet.com/content/images/size/w2000/2021/07/nestjs-heroku-2.png" width="200" alt="Nest Logo" /></a>
 </p>
 <b>💎rent-map-backend</b>
 <br/>

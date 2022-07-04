@@ -1,4 +1,5 @@
-<b>💎 rent-map-backend</b>
+# 💎 rent-map-backend
+
 <p>🧲 deploy(frontend): https://kwantvic.github.io/rent-map-frontend</p>
 <p>🔌 gitHub(frontend): https://github.com/kwantvic/rent-map-frontend</p>
 <p align="center">
